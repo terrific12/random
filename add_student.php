@@ -15,7 +15,7 @@ if($name && $email && $age){
     $stmt ->execute([$name, $email, $age]);
 
     //convert php array into JSON (sends and receives data between the server and client->browser/JS)
-    echo json_encode(['status' => 'success', 'message' => 'Student added successfully']);
+    echo json_encode(['status' => 'success', 'message' => 'Studeasdasdasnt added successfully']);
 }else{
     echo json_encode(['status' => 'error' , 'message' => 'All the fields are required']);
 }
